@@ -1,0 +1,21 @@
+{
+    "name": "cmzz/laravel-fluentd",
+    "minimum-stability": "stable",
+    "require": {
+        "ramsey/uuid": "^3.6",
+        "ytake/laravel-fluent-logger": "^3.1"
+    },
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "Log\\": "src/Log/",
+            "Middleware\\": "src/Middleware/"
+        },
+        "files": []
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
